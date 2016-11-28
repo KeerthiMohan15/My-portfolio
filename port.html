@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+      <div class="row bg">
+          <div class="col-xs-4">
+              <img class="title-logo" src="images/logo.png">
+          </div>
+          <div class="col-md-8 text-right text-uppercase">
+              <h1 class="title-super text-thin">Keerthi Mohan</h1>
+              <h4>front end web developer</h4>
+          </div>
+      </div>
+      <div class="row">
+      <div class="col-md-12">
+          <hr>
+      </div>
+      </div>
+    </header>
+    <section class="row">
+          <div class="col-md-12">
+              <img src="http://placekitten.com/g/1170/550" alt="cute kitten" class="img-responsive">
+          </div>
+          <div class="col-md-12">
+              <h2 class="text-muted">Featured work</h2>
+          </div>
+    </section>
+    <article>
+      <div class="row text-centered">
+          <div class="col-md-4">
+              <img src="images/birds.jpg" alt="birds" class="img-responsive articl-image" data-toggle="modal" data-target="#pro1">
+              <h3 class="text-uppercase">mock-up article</h3>
+              <p>https://github.com/udacity/mock-up-article<p>
+          </div>
+          <div class="col-md-4">
+              <img src="images/horses.jpg" alt="horses" class="img-responsive articl-image" data-toggle="modal" data-target="#pro2">
+              <h3 class="text-uppercase">animal-trading-card</h3>
+              <p>https://github.com/udacity/animal-trading-card</p>
+
+          </div>
+          <div class="col-md-4">
+              <img src="images/life.jpg" alt="fruits and flowers" class="img-responsive articl-image" data-toggle="modal" data-target="#pro3">
+              <h3 class="text-uppercase">portfolio</h3>
+              <p>https://github.com/udacity/portfolio</p>
+          </div>
+      </div>
+    </article>
+   </div>
+
+   <!--Modal1-->
+   <div class="modal fade" id="pro1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h4 class="modal-title text-centered" id="myModalLabel1">Mock-up Article</h4>
+           </div>
+           <div class="modal-body">
+               <img class="img-responsive imgsiz" src="images/pup1.jpe" height="300px">
+               This was my first project in the udacity nanodegree program.Here I was introduced to HTML basics.
+           </div>
+           <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           </div>
+       </div>
+   </div>
+   </div>
+
+   <!--Modal2-->
+   <div class="modal fade" id="pro2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h4 class="modal-title text-centered" id="myModalLabel1">Animal-Trading Cards</h4>
+           </div>
+           <div class="modal-body">
+               <img class="img-responsive imgsiz" src="images/pup2.jpe" height="300px">
+               This was my second project in the udacity nanodegree program.I was supposed to make an animal trading card with the newly learnt concepts of HTML and CSS.
+           </div>
+           <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           </div>
+       </div>
+   </div>
+   </div>
+
+   <!--Modal3-->
+   <div class="modal fade" id="pro3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h4 class="modal-title text-centered" id="myModalLabel1">Portfolio</h4>
+           </div>
+           <div class="modal-body">
+               <img class="img-responsive imgsiz" src="images/pup3.jpe">
+               This was my third project in the udacity nanodegree program.I made a responsive portfolio page.
+           </div>
+           <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           </div>
+       </div>
+   </div>
+   </div>
+   <hr width="1170px">
+   <footer>
+      <p class="text-centered">
+           Copyright@Keerthi
+      </p>
+   </footer>
+</body>
+</html>
